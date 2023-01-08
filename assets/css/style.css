@@ -10,3 +10,55 @@ body{
     height: 100vh;
     background-color: aqua;
 }
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid;
+    margin-bottom: 10px;
+}
+
+/*Tira o foco do input*/
+input:focus{
+    outline: none;
+    border-color: aqua;
+}
+
+button{
+    padding: 5px;
+    width: 40px;
+    background-color: aquamarine;
+    color: black;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: aliceblue;
+    color: black;
+    cursor: pointer;
+}
+
+#delete{
+    width: auto;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+#tarefa{
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+    margin: 10px;
+}
